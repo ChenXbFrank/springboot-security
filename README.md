@@ -6,7 +6,7 @@
 http://xxxx 
 
 ## 启动
-+ git clone https://github.com/fp2952/spring-boot-security-demo.git
++ 下载代码
 + 导入maven项目，下载所需的依赖包 
 + mysql下创建数据库admin，初始化数据脚本（执行doc包下的base-data.sql文件）
 + 修改配置文件 application.yml
@@ -66,9 +66,3 @@ image...
             <systemPath>${project.basedir}/src/main/lib/common-1.0-SNAPSHOT.jar</systemPath>
         </dependency>
 ```
-
-
-## 更新日志
-2018-04-23 项目初始化  
-2018-04-24 更新文档  
-待续...
